@@ -1,0 +1,110 @@
+body {
+    background-color: #eee;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: coral;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+a:link, a:visited, a:hover {
+    color: white;
+}
+
+
+/* Click en el link */
+a:active {
+    color: black;
+}
+
+/* Botones de Redes Sociales */
+#google{
+    background-color: #d33;
+}
+
+#google:hover{
+    background-color: #d66;
+    
+}
+
+#facebook{
+    background-color: blue;
+}
+
+#facebook:hover{
+    background-color: #66F;
+}
+
+#twitter{
+    background-color: #77f;
+}
+
+#twitter:hover{
+    background-color: rgb(160, 160, 255);
+}
+
+
+/* Pie de pagina */
+
+footer {
+    padding-top: 0.2em;
+    padding-bottom: 0.6em;
+    background-color: rgb(51, 51, 51);
+    height: 95px;
+}
+
+footer h3 {
+    color: #eee;
+}
+
+
+/*      ===========================================
+                        Listas 
+        ===========================================
+*/
+
+#ingredientes, #receta {
+    text-align: left;
+    max-width: 80%;
+    padding: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid 1px #999;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#ingredientes{
+    list-style-type: square;
+}
+
+#ingredientes li:hover{
+    background-color: #29F;
+    margin-left: 15px;
+}
+
+
+#receta li {
+    border-bottom: solid 1px #eee;
+}
+
+#receta li:hover {
+    background-color: #29F;
+}
+
+h1{
+    border-bottom: solid 1px #444;
+}
+
+
+h2{
+    font-size: 1.5em;
+}
+
+.subtitulo{
+    font-size: 1.3em;
+}
